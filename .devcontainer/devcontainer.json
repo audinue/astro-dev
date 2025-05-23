@@ -1,0 +1,17 @@
+{
+  "name": "astro-dev",
+  "image": "audinue/astro-prebuild",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopContainer",
+  "forwardPorts": [4321],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "risingstack.astro-alpinejs-syntax-highlight",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
